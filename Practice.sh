@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-echo"Enter you name"
+
+echo "Enter you name"
 read name
-echo"enter your age"
+echo "Enter your age"
 read age
 echo "hello $name, you are $age years old."
 
