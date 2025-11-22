@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+
+echo "battle b/w Kranthi Teja & Chinna"
+
+echo "select one number b/w 0 & 1 (0/1)"
+
+chinna=$(( $RANDOM % 2 && 23 > 10 ))
+
+read Teja
+
+if [[ $chinna == $Teja ]]
+
+then
+         echo "you won :)"
+
+else
+         echo "you die :("
+         exit 1
+fi
+
+
+echo "Battle with Evil Dileep "
+
+echo "select b/w 0-9 (0-9)"
+
+read Teja
+
+dileep=$(( $RANDOM % 10 ))
+
+
+if [[ $dileep == $Teja || $Teja == "Teja" ]]
+
+then
+         echo "you won :)"
+
+else
+         echo "you die :("
+fi
+
