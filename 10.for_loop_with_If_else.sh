@@ -6,7 +6,7 @@ for web in google.com facebook.com youtube.com
 
 do
 
-if ping $web > /dev/null;
+if ping $web > /dev/null ;
 
 then
 
