@@ -15,8 +15,10 @@ done
 
 myarr=(1 2 3 'kranthi teja' utti)
 
-for myarr in "${myarr[@]}"
+for ((i =0 ; i<${#myarr[@]}; i++))
 
-do echo  $myarr
+do 
+
+echo ${myarr[$i]}
 
 done
